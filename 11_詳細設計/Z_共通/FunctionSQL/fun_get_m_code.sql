@@ -3,7 +3,7 @@ go
 create function fun_get_m_code
 (
     @kaitei_date date
-    ,@kbn varchar(4)
+    ,@kbn varchar(8)
     ,@code varchar(30)
     ,@delete_flg varchar(1)
 )
